@@ -12,33 +12,50 @@ body {
 
 
 .navbar {
-  margin-top: 10px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 25px;
-  font-size: 17px;
+  gap: 30px;
+  font-size: 18px;
   font-family: 'Overpass', Arial, Helvetica, sans-serif;
   font-weight: 500;
-  margin-right: 50px;
+  margin-right: 90px;
   color: #515151;
 }
 
 .home-nav {
+  position: relative;
+  text-decoration: none;
   cursor: pointer;
+}
+
+.home-nav:hover {
+  border-bottom: 3px solid green;
 }
 
 .about-nav {
   cursor: pointer;
 }
 
+.about-nav:hover {
+  border-bottom: 3px solid green;
+}
+
 .blog-nav {
   cursor: pointer;
 }
 
+.blog-nav:hover {
+  border-bottom: 3px solid green;
+}
+
 .reviews-nav {
-  margin-right: 20px;
+  margin-right: 350px;
   cursor: pointer;
+}
+
+.reviews-nav:hover {
+  border-bottom: 3px solid green;
 }
   
 .git-btn {
@@ -57,7 +74,7 @@ body {
 
 
 .headsection-h1-p {
-  margin-top: 70px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,8 +82,8 @@ body {
 
 .h1-headsection {
   font-family: 'Nunito', sans-serif;
-  font-size: 55px;
-  margin-bottom: 7px;
+  font-size: 70px;
+  margin-bottom: 5px;
 }
 
 .p1-headsection {
