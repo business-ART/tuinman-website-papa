@@ -160,9 +160,14 @@ hr {
 
 .blog-section {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   background-color: green;
   height: 800px;
+}
+
+.center-h2-txt {
+  display: flex;
+  justify-content: center;
 }
 
 .h2-txt {
@@ -170,6 +175,11 @@ hr {
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
   color: black;
-  width: 805px;
+  width: 900px;
   text-align: center;
+}
+
+.work-results {
+  display: flex;
+  flex-direction: column;
 }
