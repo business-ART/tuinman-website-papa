@@ -6,12 +6,16 @@
 
 
 
+
 body {
   background-color: #efffef;
   height: 2000px;
 }
 
 
+
+
+/* HERO SECTION */
 
 .hero-section {
   position: relative;
@@ -84,7 +88,7 @@ body {
   font-weight: 500;
   margin-right: 73px;
   cursor: pointer;
-  padding: 13px 22px 10px 22px;
+  padding: 13px 20px 10px 20px;
   border-radius: 7px;
   border: none;
   background-color: #00f400;
@@ -94,7 +98,7 @@ body {
 hr {
   margin-top: 17px;
   height: 1px;
-  border: none;
+  border: none; 
   background-color: #e0e0e0;
   width: 1347px;
   margin-left: 100px;
@@ -102,6 +106,8 @@ hr {
 
 
 
+
+/* HEAD SECTION */
 
 .headsection-h1-p {
   margin-top: 100px;
@@ -135,11 +141,37 @@ hr {
 
 
 
+/* ABOUT SECTION */
+
 .intro-section {
   display: flex;
   text-align: center;
   justify-content: flex-end;
-  gap: 240px;
+  gap: 250px;
+}
+
+.pic-gitBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dad-intro-pic {
+  margin-top: 100px;
+  height: 600px;
+}
+
+.git-btn-about {
+  margin-top: 40px;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding: 13px 20px 10px 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: #00f400;
+  cursor: pointer;
 }
 
 .intro {
@@ -151,24 +183,18 @@ hr {
   color: black;
 }
 
-.dad-intro-pic {
-  margin-top: 100px;
-  height: 600px;
-}
 
 
+
+/* BLOG SECTION */
 
 .blog-section {
   display: flex;
   flex-direction: column;
   background-color: green;
-  height: 800px;
+  height: 1000px;
 }
 
-.center-h2-txt {
-  display: flex;
-  justify-content: center;
-}
 
 .h2-txt {
   margin-top: 150px;
@@ -179,7 +205,32 @@ hr {
   text-align: center;
 }
 
+.center-h2-txt {
+  display: flex;
+  justify-content: center;
+}
+
+
 .work-results {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
 }
+
+.start-result-1 {
+  height: 210px;
+  width: 350px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  margin-left: 30px;
+}
+
+.end-result-1 {
+  height: 210px;
+  width: 350px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin-left: 30px;
+}
+
+
