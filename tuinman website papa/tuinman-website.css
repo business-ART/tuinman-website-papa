@@ -162,7 +162,7 @@ hr {
 }
 
 .git-btn-about {
-  margin-top: 40px;
+  margin-top: 30px;
   color: #ffffff;
   font-size: 17px;
   font-family: 'Overpass', Arial, Helvetica, sans-serif;
@@ -196,12 +196,13 @@ hr {
 }
 
 
+
 .h2-txt {
   margin-top: 150px;
   font-family: 'Nunito', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   color: black;
-  width: 900px;
+  width: 600px;
   text-align: center;
 }
 
@@ -211,26 +212,71 @@ hr {
 }
 
 
+
 .work-results {
   margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.results-pair {
   display: flex;
   flex-direction: column;
 }
 
-.start-result-1 {
-  height: 210px;
-  width: 350px;
+
+/* Place here all the img names + their given styles instead of having them all seperately styled */
+
+
+.start-result {
+  height: 230px;
+  width: 370px;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   margin-left: 30px;
 }
 
-.end-result-1 {
-  height: 210px;
-  width: 350px;
+.end-result {
+  height: 230px;
+  width: 370px;
   border-bottom-left-radius: 9px;
   border-bottom-right-radius: 9px;
   margin-left: 30px;
 }
 
 
+
+.start-result-1 {
+  height: 230px;
+  width: 370px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  margin-left: 30px;
+}
+
+.end-result-1 {
+  height: 230px;
+  width: 370px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin-left: 30px;
+}
+
+
+
+.start-result-2 {
+  height: 230px;
+  width: 370px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  margin-left: 30px;
+}
+
+.end-result-2 {
+  height: 230px;
+  width: 370px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin-left: 30px;
+}
