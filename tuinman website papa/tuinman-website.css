@@ -162,7 +162,7 @@ hr {
 }
 
 .git-btn-about {
-  margin-top: 30px;
+  margin-top: 40px;
   color: #ffffff;
   font-size: 17px;
   font-family: 'Overpass', Arial, Helvetica, sans-serif;
@@ -193,6 +193,7 @@ hr {
   flex-direction: column;
   background-color: green;
   height: 1000px;
+  /* overflow-y: hidden; */
 }
 
 
@@ -218,6 +219,14 @@ hr {
   display: flex;
   flex-direction: row;
   gap: 70px;
+  flex-wrap: nowrap;
+  overflow-x: auto;      /* horizontal scroll */
+  overflow-y: hidden;
+}  
+
+.work-results::-webkit-scrollbar {
+  display: none;
+  /* Ask A.I. when holding in on the mouse button, to be able to scroll by moving while holding the mouse button to move to mouse to scroll to images left and right */
 }
 
 .results-pair {
@@ -226,56 +235,21 @@ hr {
 }
 
 
-/* Place here all the img names + their given styles instead of having them all seperately styled */
-
-
-.start-result {
-  height: 230px;
-  width: 370px;
-  border-top-left-radius: 9px;
-  border-top-right-radius: 9px;
-  margin-left: 30px;
-}
-
-.end-result {
-  height: 230px;
-  width: 370px;
-  border-bottom-left-radius: 9px;
-  border-bottom-right-radius: 9px;
-  margin-left: 30px;
-}
-
-
-
-.start-result-1 {
-  height: 230px;
-  width: 370px;
-  border-top-left-radius: 9px;
-  border-top-right-radius: 9px;
-  margin-left: 30px;
-}
-
-.end-result-1 {
-  height: 230px;
-  width: 370px;
-  border-bottom-left-radius: 9px;
-  border-bottom-right-radius: 9px;
-  margin-left: 30px;
-}
-
-
-
+.start-result,
+.start-result-1,
 .start-result-2 {
   height: 230px;
-  width: 370px;
+  max-width: 370px;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   margin-left: 30px;
 }
 
+.end-result,
+.end-result-1,
 .end-result-2 {
   height: 230px;
-  width: 370px;
+  max-width: 370px;
   border-bottom-left-radius: 9px;
   border-bottom-right-radius: 9px;
   margin-left: 30px;
