@@ -46,40 +46,66 @@ body {
   color: #ffffff;
 }
 
+
+/* HERO SECTION - SMOOTH HOVERING UNDERLINE GROWING AND SHRINKING */
+
+.navbar p {
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* distance below text */
+  width: 100%;
+  height: 3px;
+  background-color: #50ff52;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.23s ease-out;
+}
+
+.navbar p:hover::after {
+  transform: scaleX(1);
+}
+
+
 .home-nav {
   position: relative;
   text-decoration: none;
   cursor: pointer;
 }
 
-.home-nav:hover {
+/* .home-nav:hover {
   border-bottom: 3px solid #50ff52;
-}
+} */
 
 .about-nav {
   cursor: pointer;
 }
 
-.about-nav:hover {
+/* .about-nav:hover {
   border-bottom: 3px solid #50ff52;
-}
+} */
 
 .blog-nav {
   cursor: pointer;
 }
 
-.blog-nav:hover {
+/* .blog-nav:hover {
   border-bottom: 3px solid #50ff52;
-}
+} */
 
 .reviews-nav {
   margin-right: 350px;
   cursor: pointer;
 }
 
-.reviews-nav:hover {
+/* .reviews-nav:hover {
   border-bottom: 3px solid #50ff52;
-}
+} */
   
 .git-btn {
   color: #ffffff;
@@ -162,7 +188,7 @@ hr {
 }
 
 .git-btn-about {
-  margin-top: 40px;
+  margin-top: 30px;
   color: #ffffff;
   font-size: 17px;
   font-family: 'Overpass', Arial, Helvetica, sans-serif;
@@ -193,9 +219,7 @@ hr {
   flex-direction: column;
   background-color: green;
   height: 1000px;
-  /* overflow-y: hidden; */
 }
-
 
 
 .h2-txt {
@@ -213,7 +237,6 @@ hr {
 }
 
 
-
 .work-results {
   margin-top: 100px;
   display: flex;
@@ -222,12 +245,17 @@ hr {
   flex-wrap: nowrap;
   overflow-x: auto;      /* horizontal scroll */
   overflow-y: hidden;
+  padding-right: 40px;
+  /* cursor: grab; */   /* MOUSE MOVEMENT */
 }  
 
 .work-results::-webkit-scrollbar {
   display: none;
-  /* Ask A.I. when holding in on the mouse button, to be able to scroll by moving while holding the mouse button to move to mouse to scroll to images left and right */
 }
+
+/* .work-results:active {
+  cursor: grabbing;   /* MOUSE MOVEMENT 
+} */
 
 .results-pair {
   display: flex;
@@ -242,7 +270,7 @@ hr {
   max-width: 370px;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .end-result,
@@ -252,5 +280,5 @@ hr {
   max-width: 370px;
   border-bottom-left-radius: 9px;
   border-bottom-right-radius: 9px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
