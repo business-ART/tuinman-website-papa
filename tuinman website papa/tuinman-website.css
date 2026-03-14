@@ -286,6 +286,7 @@ hr {
 
 
 
+/* REVIEW SECTION */
 
 .reviews-section {
   display: flex;
@@ -304,6 +305,42 @@ hr {
   font-family: 'Nunito', sans-serif;
   font-size: 35px;
   color: black;
-  width: 700px;
+  width: 650px;
   text-align: center;
+}
+
+
+.reviews-container {
+  margin-top: 100px;
+  display: flex;
+  margin-left: 250px;
+}
+
+.review-box-1 {
+  background-color: white;
+  height: 250px;
+  width: 270px;
+  border-radius: 11px;
+}
+
+.profilepic-1 {
+  height: 50px;
+  margin-left: 13px;
+}
+
+.name-1 {
+  padding-top: 13px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-txt {
+  margin-top: 20px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 210px;
+  margin-left: 20px;
 }
