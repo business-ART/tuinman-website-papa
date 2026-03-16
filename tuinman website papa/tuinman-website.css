@@ -215,7 +215,7 @@ hr {
 /* BLOG SECTION */
 
 .blog-section {
-  margin-top: 90px;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   background-color: #00cf00;
@@ -301,7 +301,7 @@ hr {
 }
 
 .h2-clients-txt {
-  margin-top: 100px;
+  margin-top: 130px;
   font-family: 'Nunito', sans-serif;
   font-size: 35px;
   color: black;
@@ -337,10 +337,24 @@ hr {
   gap: 10px;
 }
 
-.review-txt {
+.review-txt-1 {
   margin-top: 20px;
   font-family: 'Overpass', Arial, Helvetica, sans-serif;
   font-size: 14px;
   width: 210px;
   margin-left: 20px;
+}
+
+
+
+.review-box-2 {
+}
+
+.profilepic-2 {
+}
+
+.name-2 {
+}
+
+.review-txt-2 {
 }
