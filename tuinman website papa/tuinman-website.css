@@ -292,7 +292,7 @@ hr {
   display: flex;
   flex-direction: column;
   background-color: #00cf00;
-  height: 850px;
+  height: 1000px;
 }
 
 .center-h2-clients-txt {
@@ -310,11 +310,15 @@ hr {
 }
 
 
+
 .reviews-container {
   margin-top: 100px;
   display: flex;
-  margin-left: 250px;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-left: 10%;
 }
+
 
 .review-box-1 {
   background-color: white;
@@ -348,13 +352,128 @@ hr {
 
 
 .review-box-2 {
+  background-color: white;
+  height: 530px;
+  width: 270px;
+  border-radius: 11px;
 }
 
 .profilepic-2 {
+  height: 50px;
+  margin-left: 13px;
 }
 
 .name-2 {
+  padding-top: 13px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .review-txt-2 {
+  margin-top: 20px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 210px;
+  margin-left: 20px;
 }
+
+
+
+.review-box-3 {
+  background-color: white;
+  height: 390px;
+  width: 270px;
+  border-radius: 11px;
+}
+
+.profilepic-3 {
+  height: 50px;
+  margin-left: 13px;
+}
+
+.name-3 {
+  padding-top: 13px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-txt-3 {
+  margin-top: 20px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 210px;
+  margin-left: 20px;
+}
+
+
+
+.review-box-4 {
+  background-color: white;
+  height: 530px;
+  width: 270px;
+  border-radius: 11px;
+}
+
+.profilepic-4 {
+  height: 50px;
+  margin-left: 13px;
+}
+
+.name-4 {
+  padding-top: 13px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-txt-4 {
+  margin-top: 20px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 210px;
+  margin-left: 20px;
+}
+
+
+
+.review-box-5 {
+  background-color: white;
+  height: 530px;
+  width: 270px;
+  border-radius: 11px;
+  position: relative;
+  margin-top: -280px;
+}
+
+.profilepic-5 {
+  height: 50px;
+  margin-left: 13px;
+}
+
+.name-5 {
+  padding-top: 13px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-txt-5 {
+  margin-top: 20px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 210px;
+  margin-left: 20px;
+}
+
+
+
