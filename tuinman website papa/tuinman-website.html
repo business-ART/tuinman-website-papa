@@ -197,9 +197,39 @@
 
     <div class="git-form">
       <div class="form-box">
+
+        <form action="submit_form.php" method="post">
+
+          <h2 class="h3-txt">Contact Form</h2>
+
+          <br>
+          <br>
+          
+          <input class="fname" type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+          <input class="lname" type="text" id="lname" name="lname" placeholder="Enter your surname" required>
+          
+          <br>
+          <br>
+          
+          <input class="email" type="email" id="email" name="email" placeholder="Enter your email" required>
+          <input class="password" type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+          
+          <br>
+          <br>
+          
+          <label class="message-title" for="message">Message:</label>
+          
+          <br>
+          
+          <textarea class="message-placeholder" id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+          
+          <br>
+          <br>
+          
+          <button class="gic-btn" type="submit">Get in Contact</button>
+      </form>
       </div>
     </div>
-    
 
  
 

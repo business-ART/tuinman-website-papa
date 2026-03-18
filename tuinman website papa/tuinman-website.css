@@ -583,5 +583,19 @@ hr {
   height: 500px;
   width: 550px;
   border-radius: 13px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+}
+
+.h3-txt {
+  margin-top: 30px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 35px;
+  color: black;
+}
+
+.message-placeholder {
+  width: 400px;
+  height: 100px;
 }
