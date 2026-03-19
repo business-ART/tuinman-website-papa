@@ -580,8 +580,8 @@ hr {
 
 .form-box {
   background-color: #ebffea;
-  height: 500px;
-  width: 550px;
+  height: 600px;
+  width: 650px;
   border-radius: 13px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -593,9 +593,50 @@ hr {
   font-family: 'Nunito', sans-serif;
   font-size: 35px;
   color: black;
+  text-align: center;
+}
+
+input[id="fname"],
+input[id="lname"],
+input[id="email"],
+input[id="password"] {
+  margin-top: 20px;
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 245px;
+}
+
+.lname {
+  margin-left: 10px;
+}
+
+.password {
+  margin-left: 10px;
+}
+
+.phone-number {
+  margin-top: 20px;
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 500px;
+}
+
+.message-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
 }
 
 .message-placeholder {
-  width: 400px;
+  margin-top: 7px;
+  width: 500px;
   height: 100px;
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  color: ;
+  padding-left: 5px;
 }
