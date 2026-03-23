@@ -9,7 +9,6 @@
 
 body {
   background-color: #ffffff;
-  height: 2000px;
 }
 
 
@@ -219,7 +218,6 @@ hr {
   display: flex;
   flex-direction: column;
   background-color: #65ff65;
-  height: 850px;
 }
 
 
@@ -292,7 +290,7 @@ hr {
   display: flex;
   flex-direction: column;
   background-color: #65ff65;
-  height: 1200px;
+  height: 170vh;
 }
 
 .center-h2-clients-txt {
@@ -571,9 +569,11 @@ hr {
 
 
 
+/* CONTACT-FORM SECTION */
+
 .git-form {
-  margin-top: 10%;
-  height: 1000px;
+  margin-top: 130px;
+  height: 115vh;
   display: flex;
   justify-content: center;
 }
@@ -607,13 +607,34 @@ input[id="password"] {
   width: 245px;
 }
 
-.lname {
-  margin-left: 10px;
+
+.fname::placeholder {
+  color: #bebebe;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
-.password {
-  margin-left: 10px;
+
+.lname::placeholder {
+  color: #bebebe;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
+
+
+.email::placeholder {
+  color: #bebebe;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+
+.password::placeholder {
+  color: #bebebe;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
 
 .phone-number {
   margin-top: 20px;
@@ -622,6 +643,20 @@ input[id="password"] {
   border: 1px solid;
   width: 500px;
 }
+
+.phone-number::placeholder {
+  color: #bebebe;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+
+.password::placeholder {
+  color: #bebebe;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
 
 .message-title {
   font-family: 'Nunito', sans-serif;
@@ -632,11 +667,46 @@ input[id="password"] {
 
 .message-placeholder {
   margin-top: 7px;
+  padding-top: 7px;
   width: 500px;
   height: 100px;
-  font-family: ;
-  font-size: ;
-  font-weight: ;
-  color: ;
-  padding-left: 5px;
+  border-radius: 5px;
+  padding-left: 7px;
+}
+
+.message-placeholder::placeholder {
+  font-size: 12px;
+  width: 400px;
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #bebebe;
+}
+
+
+.gic-btn {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background-color: #50ff52;
+  padding: 13px 33px 11px 33px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.gic-btn:active {
+  background-color: rgb(0, 255, 0);
+  color: #ffffff;
+}
+
+
+
+/* FOOTER-SECTION */
+
+.footer-section {
+  background-color: #68ff57;
+  width: 1520px;
+  height: 130px;
 }
