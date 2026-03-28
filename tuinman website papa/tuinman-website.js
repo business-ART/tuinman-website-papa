@@ -2,6 +2,56 @@
 
 
 
+document.querySelector('.about-nav').addEventListener('click', function () {
+  document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
+});
+
+
+document.querySelector('.blog-nav').addEventListener('click', function () {
+  document.querySelector('#blog').scrollIntoView({ behavior: 'smooth'});
+});
+
+
+document.querySelector('.reviews-nav').addEventListener('click', function () {
+  document.querySelector('#reviews').scrollIntoView({ behavior: 'smooth'});
+});
+
+
+document.querySelector('.git-btn').addEventListener('click', function () {
+  document.querySelector('#git-form').scrollIntoView({ behavior: 'smooth'});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const slider = document.querySelector('.work-results');
 

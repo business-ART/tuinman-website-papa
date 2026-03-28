@@ -14,6 +14,8 @@ body {
 
 
 
+
+
 /* HERO SECTION */
 
 .hero-section {
@@ -116,8 +118,13 @@ body {
   padding: 13px 20px 10px 20px;
   border-radius: 7px;
   border: none;
-  background-color: #00f400;
+  background-color: #00ff00;
   cursor: pointer;
+}
+
+.git-btn:active {
+  background-color: #50ff52;
+  color: #ffffff;
 }
 
 hr {
@@ -128,6 +135,8 @@ hr {
   width: 1347px;
   margin-left: 100px;
 }
+
+
 
 
 
@@ -166,9 +175,11 @@ hr {
 
 
 
+
+
 /* ABOUT SECTION */
 
-.intro-section {
+.about-section {
   display: flex;
   text-align: center;
   justify-content: flex-end;
@@ -195,8 +206,13 @@ hr {
   padding: 13px 20px 10px 20px;
   border-radius: 7px;
   border: none;
-  background-color: #00f400;
+  background-color: #00ff00;
   cursor: pointer;
+}
+
+.git-btn-about:active {
+  background-color: #50ff52;
+  color: #ffffff;
 }
 
 .intro {
@@ -211,6 +227,8 @@ hr {
 
 
 
+
+
 /* BLOG SECTION */
 
 .blog-section {
@@ -218,6 +236,12 @@ hr {
   display: flex;
   flex-direction: column;
   background-color: #65ff65;
+}
+
+
+/* NAVS & BTN - RIGHT TOP */
+
+.right-top-nav-blog {
 }
 
 
@@ -284,16 +308,26 @@ hr {
 
 
 
+
+
+
 /* REVIEW SECTION */
 
 .reviews-section {
   display: flex;
   flex-direction: column;
   background-color: #65ff65;
-  height: 170vh;
+  height: 180vh;
+}
+
+
+/* NAVS & BTN - RIGHT TOP */
+
+.right-top-nav-reviews {
 }
 
 .center-h2-clients-txt {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -569,6 +603,8 @@ hr {
 
 
 
+
+
 /* CONTACT-FORM SECTION */
 
 .git-form {
@@ -578,12 +614,18 @@ hr {
   justify-content: center;
 }
 
+
+/* NAVS & BTN - RIGHT TOP */
+
+.right-top-nav-conform {
+}
+
 .form-box {
   background-color: #ebffea;
   height: 600px;
   width: 650px;
   border-radius: 13px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px #00000033;
   display: flex;
   justify-content: center;
 }
@@ -608,29 +650,13 @@ input[id="password"] {
 }
 
 
-.fname::placeholder {
-  color: #bebebe;
-  font-family: 'Overpass', Arial, Helvetica, sans-serif;
-  font-weight: 600;
-}
-
-
-.lname::placeholder {
-  color: #bebebe;
-  font-family: 'Overpass', Arial, Helvetica, sans-serif;
-  font-weight: 600;
-}
-
-
-.email::placeholder {
-  color: #bebebe;
-  font-family: 'Overpass', Arial, Helvetica, sans-serif;
-  font-weight: 600;
-}
-
-
-.password::placeholder {
-  color: #bebebe;
+.fname::placeholder,
+.lname::placeholder,
+.email::placeholder,
+.password::placeholder,
+.phone-number::placeholder,
+.message-placeholder::placeholder {
+  color: #d9d9d9;
   font-family: 'Overpass', Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
@@ -642,19 +668,6 @@ input[id="password"] {
   border-radius: 5px;
   border: 1px solid;
   width: 500px;
-}
-
-.phone-number::placeholder {
-  color: #bebebe;
-  font-family: 'Overpass', Arial, Helvetica, sans-serif;
-  font-weight: 600;
-}
-
-
-.password::placeholder {
-  color: #bebebe;
-  font-family: 'Overpass', Arial, Helvetica, sans-serif;
-  font-weight: 600;
 }
 
 
@@ -674,14 +687,6 @@ input[id="password"] {
   padding-left: 7px;
 }
 
-.message-placeholder::placeholder {
-  font-size: 12px;
-  width: 400px;
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  color: #bebebe;
-}
-
 
 .gic-btn {
   margin-top: 15px;
@@ -689,17 +694,19 @@ input[id="password"] {
   font-size: 17px;
   font-family: 'Overpass', Arial, Helvetica, sans-serif;
   font-weight: 500;
-  background-color: #50ff52;
-  padding: 13px 33px 11px 33px;
+  background-color: #00ff00;
+  padding: 13px 20px 10px 20px;
   border: none;
   border-radius: 7px;
   cursor: pointer;
 }
 
 .gic-btn:active {
-  background-color: rgb(0, 255, 0);
+  background-color: #50ff52;
   color: #ffffff;
 }
+
+
 
 
 
