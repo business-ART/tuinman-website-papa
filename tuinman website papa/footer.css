@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  background-color: #ffffff;
+}
+
+
+
+
+/* FOOTER */
+
+.footer-section {
+  background-color: #68ff57;
+  width: 1520px;
+  height: 100px;
+}
